@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  DVDsViewController.m
 //  rottenTomatoes1
 //
 //  Created by Aswani Nerella on 10/24/15.
 //  Copyright © 2015 Aswani Nerella. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "DVDsViewController.h"
 
-@interface SecondViewController ()
+@interface DVDsViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation DVDsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

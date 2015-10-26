@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  DVDsViewController.h
 //  rottenTomatoes1
 //
 //  Created by Aswani Nerella on 10/24/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface DVDsViewController : UIViewController
 
 
 @end

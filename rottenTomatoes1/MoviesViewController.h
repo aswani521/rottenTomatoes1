@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  MoviesViewController.h
 //  rottenTomatoes1
 //
 //  Created by Aswani Nerella on 10/24/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface MoviesViewController : UIViewController
 
 
 @end
