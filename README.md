@@ -16,12 +16,15 @@ The following **required** functionality is complete:
 * [YES ] User sees error message when there's a networking error. 
 * [YES ] User can pull to refresh the movie list.
 
+The following **optional** features are implemented:
+
+- [YES - INCOMPLETE] Add a tab bar for Box Office and DVD.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/aswani521/TipCalculator/blob/master/TipCalculator/TipCalculator.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/aswani521/rottenTomatoes1/blob/master/rottenTomatoesDemo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
