@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UITableView *moviesTableView;
 @property (strong, nonatomic) NSArray *moviesData;
 
+@property (weak, nonatomic) IBOutlet UILabel *errorLabel;
 
 
 @property (nonatomic, strong) UIRefreshControl *refreshControl;
@@ -103,7 +104,11 @@
                                                     [self.moviesTableView reloadData];
                                                 } else {
                                                     NSLog(@"An error occurred: %@", error.description);
+                                                    self.errorLabel.hidden = NO;
+                                                    self.errorLabel.text = @"!! Network Error !!";
+                                                    self.moviesTableView.hidden = YES;
                                                 }
+                                                
                                             }];
     [task resume];
     
