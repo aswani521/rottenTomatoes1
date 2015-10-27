@@ -10,11 +10,6 @@ Time spent: **6** hours spent in total
 
 The following **required** functionality is complete:
 
-* [YES ] Support for splits
-* [YES ] Support for changing default split through settings screen
-* [YES ] Adding "DONE" button to calculate the amount instead of tapping on the screen
-* [YES ] Auto layout of UI Elements
-
 * [YES ] User can view a list of movies from Rotten Tomatoes. Poster images must be loaded asynchronously.
 * [YES ] User can view movie details by tapping on a cell.
 * [YES ] User sees loading state while waiting for movies API.
