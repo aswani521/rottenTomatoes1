@@ -29,7 +29,7 @@
     NSString *criticsRating = self.selectedMovie[@"ratings"][@"critics_score"];
     
     
-    
+    [self.movieDetailsNavigationItem setTitle:movieTitle];
     self.titleLabel.text = [NSString stringWithFormat:@"%@ (%@)", movieTitle, movieYear];
     self.synopsisLabel.text = [self.selectedMovie objectForKey:@"synopsis"];
     self.ratingsLabel.text = [NSString stringWithFormat:@"Audience Rating: %@ , Critics Rating: %@", audienceRating, criticsRating];

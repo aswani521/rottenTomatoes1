@@ -15,6 +15,7 @@
 @property NSDictionary *selectedMovie;
 @property (weak, nonatomic) IBOutlet UILabel *ratingsLabel;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (weak, nonatomic) IBOutlet UINavigationItem *movieDetailsNavigationItem;
 
 @end
 
