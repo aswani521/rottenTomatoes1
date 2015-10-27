@@ -39,6 +39,10 @@
     [self fetchData];
 }
 
+- (void) viewWillAppear:(BOOL)animated {
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -101,12 +105,15 @@
                                                                                       error:&jsonError];
                                                     NSLog(@"Response: %@", responseDictionary);
                                                     self.moviesData = responseDictionary[@"movies"];
+                                                    self.errorLabel.hidden = YES;
                                                     [self.moviesTableView reloadData];
                                                 } else {
                                                     NSLog(@"An error occurred: %@", error.description);
                                                     self.errorLabel.hidden = NO;
                                                     self.errorLabel.text = @"!! Network Error !!";
                                                     self.moviesTableView.hidden = YES;
+                                                    //[self.refreshControl beginRefreshing];
+                                                    
                                                 }
                                                 
                                             }];

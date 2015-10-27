@@ -17,6 +17,7 @@
 		ADAA89951BDC535C007D430C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAA89941BDC535C007D430C /* Assets.xcassets */; };
 		ADAA89981BDC535C007D430C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAA89961BDC535C007D430C /* LaunchScreen.storyboard */; };
 		ADBEA6EC1BDDF91C001F7014 /* movieDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBEA6EB1BDDF91C001F7014 /* movieDetailsViewController.m */; settings = {ASSET_TAGS = (); }; };
+		ADF580521BDF507B00A13175 /* rottenTomatoes_demo2.gif in Resources */ = {isa = PBXBuildFile; fileRef = ADF580511BDF507B00A13175 /* rottenTomatoes_demo2.gif */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		ADAA89991BDC535C007D430C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADBEA6EA1BDDF91C001F7014 /* movieDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movieDetailsViewController.h; sourceTree = "<group>"; };
 		ADBEA6EB1BDDF91C001F7014 /* movieDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = movieDetailsViewController.m; sourceTree = "<group>"; };
+		ADF580511BDF507B00A13175 /* rottenTomatoes_demo2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = rottenTomatoes_demo2.gif; path = ../../../../../Documents/rottenTomatoes_demo2.gif; sourceTree = "<group>"; };
 		D6616D6E2A2B63DCDFEECC99 /* libPods-rottenTomatoes1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rottenTomatoes1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6EB2BDBA313BBE0F7B7EE5 /* Pods-rottenTomatoes1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rottenTomatoes1.release.xcconfig"; path = "Pods/Target Support Files/Pods-rottenTomatoes1/Pods-rottenTomatoes1.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 				ADAA89911BDC535C007D430C /* Main.storyboard */,
 				ADBEA6EA1BDDF91C001F7014 /* movieDetailsViewController.h */,
 				ADBEA6EB1BDDF91C001F7014 /* movieDetailsViewController.m */,
+				ADF580511BDF507B00A13175 /* rottenTomatoes_demo2.gif */,
 				ADAA89941BDC535C007D430C /* Assets.xcassets */,
 				ADAA89961BDC535C007D430C /* LaunchScreen.storyboard */,
 				ADAA89991BDC535C007D430C /* Info.plist */,
@@ -181,6 +184,7 @@
 			files = (
 				ADAA89981BDC535C007D430C /* LaunchScreen.storyboard in Resources */,
 				ADAA89951BDC535C007D430C /* Assets.xcassets in Resources */,
+				ADF580521BDF507B00A13175 /* rottenTomatoes_demo2.gif in Resources */,
 				ADAA89931BDC535C007D430C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
