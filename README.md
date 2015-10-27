@@ -27,7 +27,8 @@ EDIT:
 The following **optional** features are implemented:
 
 - [YES - INCOMPLETE] Add a tab bar for Box Office and DVD.
-- [YES] Customize the navigation bar <img src='https://github.com/aswani521/rottenTomatoes1/blob/master/rottenTomatoes_movieTitle.gif' title='Custom Navigation Bar'>.
+- [YES] Customize the navigation bar 
+- <img src='https://github.com/aswani521/rottenTomatoes1/blob/master/rottenTomatoes_movieTitle.gif' title='Custom Navigation Bar'>.
 
 
 
